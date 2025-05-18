@@ -4,6 +4,7 @@ import tailwindcss from '@tailwindcss/vite'
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/Gestion_tareas_etiquetas/",
   plugins: [
     react(),
     tailwindcss(),
